@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import HomePage from "./pages/Homepage.jsx";
+import HomePage from "./pages/HomePage.jsx";
 import TechPage from "./pages/TechPage.jsx";
 import Login from "./pages/Login.jsx";
 import SignUp from "./pages/SignUp.jsx";
