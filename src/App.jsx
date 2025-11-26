@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import HomePage from "./pages/Homepage";
-import TechPage from "./pages/TechPage";
-import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
-import Product from "./pages/Product";
-import ProfilePage from "./components/Profile";
-import NotFound from "./components/NotFound";
+import HomePage from "./pages/Homepage.jsx";
+import TechPage from "./pages/TechPage.jsx";
+import Login from "./pages/Login.jsx";
+import SignUp from "./pages/SignUp.jsx";
+import Product from "./pages/Product.jsx";
+import ProfilePage from "./components/Profile.jsx";
+import NotFound from "./components/NotFound.jsx";
 
 function App() {
   return (

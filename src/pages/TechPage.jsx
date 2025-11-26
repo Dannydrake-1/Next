@@ -1,6 +1,6 @@
-import HeroTech from "../components/HeroTech";
-import NavBar from "../components/NavBar";
-import Footer from "../components/Footer";
+import HeroTech from "../components/HeroTech.jsx";
+import NavBar from "../components/NavBar.jsx";
+import Footer from "../components/Footer.jsx";
 
 function TechPage() {
   return (
