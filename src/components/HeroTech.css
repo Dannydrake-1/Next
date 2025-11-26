@@ -124,6 +124,9 @@
 
 
 @media (max-width: 768px) {
+   .herotech {
+    padding: 100px 12px;
+  }
   .header2 {
     font-size: 1.9rem;
   }
@@ -144,7 +147,7 @@
 
 @media (max-width: 480px) {
   .herotech {
-    padding: 24px 12px;
+    padding: 100px 12px;
   }
 
   .header2 {
