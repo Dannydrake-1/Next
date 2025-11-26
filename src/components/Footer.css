@@ -1,5 +1,5 @@
 .footer{
-  
+  bottom: 0;
     animation: fadeIn2 2s ease;
      font-family: 'Orbitron', sans-serif;
 }

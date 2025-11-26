@@ -46,6 +46,7 @@ export const SignUp = () => {
       setMsg(
         "Sign up successful! Check your email if confirmation is required. You can now log in."
       );
+      setTimeout(() => navigate("/login"), 2000);
       setName("");
       setEmail("");
       setPassword("");

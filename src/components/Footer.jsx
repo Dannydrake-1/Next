@@ -5,7 +5,7 @@ import { faGem } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <footer className="block bg-[#1a1a1f]">
+    <footer className="block bg-[#1a1a1f] bottom-0">
       <div className="footer py-7 px-7 bg-[#1a1a1f] w-full flex flex-col sm:flex-row sm:justify-around sm:items-start relative">
         <div className="footer-left p-2.5 text-center sm:text-left">
           <h3 className="text-[#ee046d]">

@@ -8,7 +8,7 @@
     url("../assets/background image.jpg");
   background-size: cover;
  
-  background-repeat: no-repeat;
+
   background-attachment: fixed; 
   animation: fadeIn2 2s ease-in forwards; 
 }
@@ -54,41 +54,51 @@
 .obi{
    font-family: 'Orbitron', sans-serif;
 }
-
+@media screen and (max-width:1024){
+   .hero {
+    background-position: center;
+    background-attachment: scroll;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .hero {
-    height: auto;
-    background-attachment: scroll; 
-    background-size: cover;
+    background-attachment: scroll;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
   }
 
   .header {
     padding-top: 200px;
-    font-size: 32px;
+    font-size: 60px;
   }
 
-  .card-container {
-    flex-direction: column;
+  .header h1 {
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  #about {
+    margin-top: 300px ;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
     padding-top: 150px;
-    gap: 25px;
+    font-size: 24px;
   }
 
-  .card {
-    width: 80%;
+  .header h1 {
+    font-size: 68px;
   }
 
-  .card img {
-    width: 150px;
-    height: 150px;
+  #about {
+    margin-top: 250px !important;
   }
-
-  .card p {
-    font-size: 18px;
-  }
-
-  .card-button {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-} 
+}
