@@ -36,9 +36,9 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#ee046d]">
-                Help
-              </a>
+              <Link to="/not-found">
+                <a className="text-white hover:text-[#ee046d]">Help</a>
+              </Link>
             </li>
             <li>
               <a href="#about" className="text-white hover:text-[#ee046d]">
@@ -61,9 +61,7 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-[#ee046d]">
-                Products
-              </a>
+              <Link to="/products">Products</Link>
             </li>
             <li>
               <Link to="/login" className="text-white hover:text-[#ee046d]">
