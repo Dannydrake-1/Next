@@ -1,0 +1,94 @@
+
+.hero{
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("../assets/background image.jpg");
+  background-size: cover;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  animation: fadeIn2 2s ease-in forwards; 
+}
+@keyframes fadeIn2{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+.header{
+   
+    padding-top: 400px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to top, #ee046d 0%, #f5af9a 100%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 48px;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 3s ease-in forwards;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.header h1{
+    font-size: 3.2em;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+    
+}
+.obi{
+   font-family: 'Orbitron', sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: auto;
+    background-attachment: scroll; 
+    background-size: cover;
+  }
+
+  .header {
+    padding-top: 200px;
+    font-size: 32px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    padding-top: 150px;
+    gap: 25px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .card img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  .card-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+} 

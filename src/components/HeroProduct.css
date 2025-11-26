@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.product{
+ animation: fadeIn2 ease 2s;
+}
+@keyframes fadeIn2{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}

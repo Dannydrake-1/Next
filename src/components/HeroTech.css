@@ -1,0 +1,164 @@
+
+.herotech {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 40px 16px;
+  padding-top: 150px;
+ font-family: 'Orbitron', sans-serif;
+  color: #1f2937;
+  line-height: 1.7;
+  background-color: #0a0a0f;
+  text-align: center;
+  animation: fadeIn2 ease 2s;
+}
+@keyframes fadeIn2{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+
+.header2 {
+  font-size: 2.3rem;
+  text-align: center;
+  font-weight: 700;
+  color: #ee046d;
+   font-family: 'Orbitron', sans-serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.header2::after {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 3px;
+  background:#ee046d ;
+  margin: 10px auto 30px;
+  border-radius: 4px;
+}
+
+
+.hero-detail{
+  text-align: center;
+  margin-bottom: 60px;
+  background: rgba(34, 34, 43, 0.7);
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: appear linear 0.5ms;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+  
+
+}
+@keyframes appear {
+    from{
+        opacity: 0;
+       transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+.hero-detail:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+.hero-detail h2{
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+  color:#ee046d;
+  font-weight: 600;
+  text-transform: capitalize;
+   font-family: 'Orbitron', sans-serif;
+}
+
+
+.hero-detail p{
+  font-size: 1rem;
+  color: #f2f2f2;
+  margin-bottom: 24px;
+ font-family: 'Orbitron', sans-serif;
+}
+
+
+.hero-detail img{
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+}
+
+
+.hero-detail img:hover {
+  transform: scale(1.03);
+}
+
+
+.herotech footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #a1a1aa;
+  font-size: 0.95rem;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 18px;
+  line-height: 1.5;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .header2 {
+    font-size: 1.9rem;
+  }
+
+  .hero-detail h2 {
+    font-size: 1.3rem;
+  }
+
+  .hero-detail p {
+    font-size: 0.95rem;
+  }
+
+  .hero-detail {
+    padding: 22px 16px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .herotech {
+    padding: 24px 12px;
+  }
+
+  .header2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-detail h2 {
+    font-size: 1.15rem;
+  }
+
+  .hero-detail p {
+    font-size: 0.9rem;
+  }
+}
+.obi{
+   font-family: 'Orbitron', sans-serif;
+}
